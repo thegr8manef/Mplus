@@ -34,8 +34,9 @@ kotlin {
             implementation(libs.ktor.client.core)
             implementation(libs.ktor.client.core)
             implementation(libs.kotlinx.coroutines.core)
-            implementation("org.jetbrains.kotlinx:kotlinx-serialization-core:1.3.0")
-            implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.0")
+            implementation("org.jetbrains.kotlinx:kotlinx-serialization-core:1.5.1")
+            implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1")
+            //noinspection UseTomlInstead
             implementation("org.jetbrains.kotlin:kotlin-stdlib")
 
         }
@@ -45,7 +46,7 @@ kotlin {
         androidMain.dependencies {
             implementation(libs.ktor.client.okhttp)
             implementation(libs.kotlinx.coroutines.android)
-            implementation("androidx.datastore:datastore-preferences:1.1.0-alpha01")
+            implementation("androidx.datastore:datastore-preferences:1.1.0-beta02")
 
         }
         iosMain.dependencies {
