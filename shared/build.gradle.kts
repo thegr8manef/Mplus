@@ -47,7 +47,7 @@ kotlin {
         androidMain.dependencies {
             implementation(libs.ktor.client.okhttp)
             implementation(libs.kotlinx.coroutines.android)
-            implementation("androidx.datastore:datastore-preferences:1.1.0-beta02")
+            implementation("androidx.datastore:datastore-preferences:1.0.0")
 
         }
         iosMain.dependencies {
